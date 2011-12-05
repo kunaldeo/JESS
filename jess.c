@@ -103,7 +103,7 @@ jess_init_xmms (void)
   
   if (resolution_change == 0)
     {
-      render_thread = SDL_CreateThread ( (void *) renderer, NULL);
+      render_thread = SDL_CreateThread ( (void *) renderer, NULL, NULL);
       if ( render_thread == NULL) {
 	fprintf (stderr, "Pthread_create error for thread renderer\n");
 	exit (1);
