@@ -1,0 +1,47 @@
+v2.5.0  1 august 2001 :
+	2 New draw-modes
+	Rockets
+	New method for plotting
+	Beat detection improved
+
+v2.0.0 19 march 2001 :
+	Stable
+	New Blur and Draw mode
+	Only nice color palette are generated
+	
+v1.1.4b 15 dec :
+	More stable
+	Some Ugly palettes mode deleted
+	Some Key binding.
+	A little faster.
+	Removed fade palette mode (too much slow).
+
+v1.1.3b 12 dec :
+	It works!!!! 
+	More stable.
+
+v1.1.2b 08 dec :
+	A lot of Key stuff
+	35% faster
+	but crashes again. 
+
+v1.1.1b 03 dec: not released, only tested on few differents systems
+	A lot of printf... for debugging.
+
+v1.1.0 02 dec :
+	30% faster
+	New method for drawing : "additionnal drawing".
+	4 new deformations modes.
+	The renderer is now in pthread.
+	Screen mode can changes.
+	New draw_line routine.
+	The initialisation phase is 50% faster.
+
+v1.0.2 25 oct :
+	Jess was re-writed. 
+	New Makefile.
+
+v1.0.1 20 oct :
+	No crashes when playback stop. 
+        Toggle fade palette mode.
+	No more black screens... 

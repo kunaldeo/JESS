@@ -1,0 +1,104 @@
+		JESS v2.9.1	
+
+         Copyright (c) 2000 by Remi Arquier
+ Freely redistributable under the Gnu GPL version 2 or later
+
+                   <arquier@crans.org>
+                 http://arquier.free.fr/
+
+Code optimizations by Karl Soulabaille <karl.soulabaille@free.Fr>
+
+02 07 2002
+
+JESS is a visualization plugin for XMMS.
+
+FEATURES
+========
+
+A lot of things.
+
+
+INSTALL-NOTES
+=============
+
+	step0:  "cd in the JESS DIRECTORY"
+	step1:  $ ./configure
+	step2:  $ make
+	step3:  $ su                      ->it will ask for password
+	step4:  # make install 
+
+
+-Notes: 
+
+If during step1 you have an error message like "xmms-config: Command not found" or "sdl-config: Command not found", it's because you have to install the xmms-devel.*.*.* package or the sdl-devel.*.*.* package.
+
+The step3 just copy the file libjess.so to your xmms visualisation plugin dir.
+ usualy :/usr/lib/xmms/Visualization
+ (you can find libjess.so in the hidden dir : ./.libs) 
+
+NEEDED
+======
+
+	The Simple DirectMedia Layer:  SDL v1.1.5 or later. (and the devel package: sdl-devel)
+        XMMS v1.0.1 or later (and the devel package: xmms-devel)
+        XFree86 v3.3.6 or later (Work better with XFree 4.0)
+ 
+
+KEYS
+====
+
+*	LEFT : forward time in music
+*	RIGHT : backward time in music
+*	UP : up in playlist
+*	DOWN : down in playlist
+
+*	SPACE    : toggle fullscreen mode (For fullscreen mode, 
+					   you must have the mode 640x480 
+					   in your XF86Config file.)
+
+*	F1-F5 : blurs modes.
+*	F6-F12 : draws modes.
+
+*	f : Freeze/Unfreeze mode, it freeze blur mode, draw mode and palette.		
+
+*	p : switch palette.
+*	e : enable/disable new colors
+
+*	a : enable/disable analyser
+
+*	c : 320x180 screen mode  
+*	v : 512x200 screen mode  
+*	b : 640x300 screen mode (default)
+*	n : 800x400 screen mode
+
+
+
+
+->	To see the frame rate : lauch xmms from a terminal.
+
+
+
+NO ABOUT BOX AND NO CONFIG UNDER XMMS?
+======================================
+
+	No.
+
+
+
+NEED INFOS?
+===========
+
+<arquier@crans.org>
+
+
+http://arquier.free.fr/
+
+
+BUGS:
+=====
+	No bugs known.
+
+
+
+
+

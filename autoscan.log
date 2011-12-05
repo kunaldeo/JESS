@@ -1,0 +1,19 @@
+autoscan: warning: missing AC_CHECK_FUNCS([floor]) wanted by: 
+	draw_low_level.c:266
+autoscan: warning: missing AC_CHECK_FUNCS([sqrt]) wanted by: 
+	distorsion.c:103
+	distorsion.c:118
+	distorsion.c:128
+	draw.c:586
+autoscan: warning: missing AC_C_INLINE wanted by: 
+	analyser.c:126
+	analyser.h:1
+autoscan: warning: missing AC_FUNC_MALLOC wanted by: 
+	draw_low_level.c:259
+	draw_low_level.c:262
+	jess.c:129
+	jess.c:135
+	jess.c:141
+	jess.c:147
+	jess.c:157
+	jess.c:160
