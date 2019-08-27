@@ -1,8 +1,8 @@
 #define PI 3.1416
-#define RESX 640 /* start resolution */
-#define RESY 300 
-#define RESX_D 640 /* rerence resolution */
-#define RESY_D 300 
+#define RESX 2560 /* start resolution */
+#define RESY 1440
+#define RESX_D 2560 /* rerence resolution */
+#define RESY_D 1400
 
 #define SCREENFLAG SDL_HWSURFACE|SDL_HWPALETTE|SDL_DOUBLEBUF|SDL_ASYNCBLIT|SDL_HWACCEL|SDL_RLEACCEL
 
